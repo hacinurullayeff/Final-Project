@@ -3,6 +3,7 @@ import './App.css';
 // Components
 import Navbar from "../src/components/Navbar"
 import Header from "../src/components/Header"
+import AboutMe from './components/AboutMe';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
+      <AboutMe/>
     </div>
   );
 }
