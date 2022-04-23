@@ -1,6 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
-import CV from '../files/Profile.pdf'
+import CV from '../assets/Profile.pdf'
 
 const Header = () => {
   return (
@@ -16,6 +16,7 @@ const Header = () => {
                     backSpeed={50}
                     loop >
                     <div/>
+                    
             </Typed>
             <a href={CV} className='download-cv'>Download CV</a>
         </div>
