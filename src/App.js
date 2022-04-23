@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "../src/components/Navbar"
 import Header from "../src/components/Header"
 import AboutMe from './components/AboutMe';
+import Services from './components/Services';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutMe/>
+      <Services/> 
     </div>
   );
 }

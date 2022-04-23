@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 nav{
@@ -99,4 +100,66 @@ nav{
     font-size: 2rem;
     text-align: center;
   }
+}
+
+/* Services */
+
+.services{
+  text-align: center;
+  background-color: rgb(229, 225, 225);
+}
+
+.services h1{
+  text-transform: uppercase;
+}
+
+.services .circle{
+  position: relative;
+  margin: .0375rem auto;
+  background-color: orange;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+}
+
+.services .circle .icon{
+  position: absolute;
+  font-size: 1.4rem;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.services .box{
+  width: auto;
+  height: 300px;
+  background-color: #fff;
+  border-bottom: 0.3125rem solid orange;
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  transition: background-color 500ms;
+}
+
+.box h2{
+  margin: 2.1rem auto;
+}
+
+.services .box:hover{
+  background-color: orange;
+  cursor: pointer;
+  border-bottom: 0.3125rem solid #000;
+
+}
+
+.services .box:hover .icon{
+  color: #000;
+}
+
+.services .box:hover .circle{
+  background-color: #fff;
+}
+
+.services .box:hover p{
+  color: #fff;
 }
