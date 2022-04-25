@@ -38,6 +38,7 @@ nav{
 
 .typed-text{
   color: #fff;
+  display: flex;
   font-size: 2rem;
 }
 
@@ -244,4 +245,61 @@ nav{
     direction: ltr;
     width: 100%;
   }
+}
+
+/* Contact Us */
+
+.contacts{
+  background-color: rgb(55, 55, 55);
+  padding: 3rem 0;
+
+}
+
+.contacts h1{
+  color: #fff;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: rgb(167, 166, 166);
+  font-size: 1.2rem;
+}
+
+/* INPUTS */
+
+.contacts input, .contacts textarea{
+  background: none;
+  border: none;
+  border-bottom: 1px solid orange;
+  resize: none;
+  box-sizing: border-box;
+  color: green;
+  outline: none !important;
+}
+
+.contacts input:focus,.contacts textarea:focus{
+  background: transparent;
+}
+
+.contacts textarea{
+ height: 9.5rem !important;
+}
+
+.contacts button{
+  margin: 1rem 0 0 0;
+}
+
+.line {
+  position: relative;
+  top: -0.7rem;
+  width: 0;
+  height: 0.125rem;
+  background-color: orange;
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: width .5s ease-in-out;
 }
